@@ -3,6 +3,7 @@ import win32gui
 import win32ui
 import win32con
 
+#captures frame
 class GameCapture:
     w,h = 0,0
     hwnd = None
